@@ -1,0 +1,60 @@
+.dashboard-card{
+    text-align: center;
+}
+.dashboard-card .card-header{
+    padding: 10px;
+    text-align: center;
+}
+.dashboard-card .card-body{
+    text-align: center;
+}
+
+.dashboard-card .card-body .badge {
+    padding: 10px;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    text-align: center;
+    align-content: center;
+}
+.dashboard-card .card-body .badge i{
+    font-size: 30px;
+    color: #fff;
+}
+@media (max-width: 768px) {
+    .dashboard-card{
+        padding: 5px;
+        height: 150px;
+    }
+    .dashboard-card .card-header{
+        padding: 10px;
+        text-align: center;
+    }
+    .dashboard-card .card-header h5{
+        font-size: 18px;
+    }
+    .dashboard-card .card-body{
+        padding: 10px;
+        text-align: center;
+    }
+}
+
+
+/* card details */
+.details{
+
+}
+
+.details .card-header{
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Horizontally center the items */
+    justify-content: center; /* Vertically center the items */
+    text-align: center; /* Center the text content */
+}
+
+.details .card-header img{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+}
